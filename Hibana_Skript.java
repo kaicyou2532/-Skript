@@ -1,3 +1,4 @@
+
 on join:
     send "【あなたにご支援のお願いです。スクロールせずにご覧ください】檜華県参加者の皆さま、こんにちは。檜華県サーバーをよく利用いただいてるようですね
     とても嬉しいです。申し訳にくいのですがあなたからの支援が必要なのです。このサーバーの運営は非営利団体であり、営業担当はおりません
@@ -63,3 +64,5 @@ on inventory click:
         send "Yeah" to player
     if event-item is barrier named "閉じる":
         close player's inventory
+
+    //[day100years?"ob_start"]
